@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Robust Data Driven Modelling, Optimisation and Control
+role: Probabilistic Machine Learning for Modelling, Control and Optimisation of Process Systems under Uncertainty
 
 # Organizations/Affiliations
 # organizations:
@@ -47,11 +47,17 @@ professional experience:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: linkedin
-    icon_pack: ai
+    icon_pack: fab
     link: https://www.linkedin.com/in/matthew--marsh/
   - icon: twitter
     icon_pack: fab
     link: https://x.com/matthew_marsh11
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/matthewmarsh11
+  - icon: laptop
+    icon_pack: fas
+    link: https://matthewmarsh11.github.io/
     
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

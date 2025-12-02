@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Haiting Wang
+title: Dr. Haiting Wang
 
 # Full name (for SEO)
 first_name: Haiting
@@ -14,7 +14,8 @@ authors:
 superuser: false
 
 # Role/position
-role: Hybrid modeling for bioprocesses - merging first principles and machine learning 
+role: AI Infrastructure Engineer at Huawei, former PhD student at OptiML (2021-2025)
+
 
 # Organizations/Affiliations
 # organizations:
@@ -64,7 +65,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - PhD Students
+  - Alumni
 ---
 
 Haiting is a PhD candidate specializing in Digital Twinning for bioprocesses, incorporating hybrid and data-driven models. Her research emphasizes machine learning applications in surrogate modelling, time series prediction, and reinforcement learning for process modelling, scheduling, and optimization in bioengineering. This work has led to a novel framework that merges kinetic modelling with machine learning to optimize dynamic systems. Before her PhD, she was an undergraduate student at Dalian University of Technology and University of Manchester in Chemical Engineering.

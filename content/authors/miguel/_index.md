@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Miguel Ángel de Carvalho Servia
+title: Dr. Miguel Ángel de Carvalho Servia
 
 # Full name (for SEO)
 first_name: Miguel Ángel
@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Automated Knowledge Discovery Methods in Reaction Engineering
+role: Process Engineer at PE Ltd, former PhD student at OptiML (2021-2025)
 
 # Organizations/Affiliations
 # organizations:
@@ -72,7 +72,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - PhD Students
+  - Alumni
 ---
 
 Miguel Carvalho is a chemical engineering PhD candidate at Imperial College London, affiliated with the EPSRC CDT in Next Generation Synthesis and Reaction Technology. He earned an MEng in chemical engineering from The University of Manchester (2021) and an MRes in advanced molecular synthesis from Imperial College London (2022). His research intersects data science, chemical engineering, and chemistry, concentrating on algorithmic solutions for automated knowledge discovery in reaction engineering and catalysis.

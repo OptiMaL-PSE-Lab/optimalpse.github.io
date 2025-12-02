@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Buse Sibel Korkmaz
+title: Dr. Buse Sibel Korkmaz
 
 # Full name (for SEO)
 first_name: Buse Sibel
@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Advancing Large Language Models for Comprehensive Scientific Assistance
+role: Applied Scientist II at Amazon AGI, former PhD student at OptiML (2021-2025)
 
 # Organizations/Affiliations
 # organizations:
@@ -74,7 +74,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - PhD Students
+  - Alumni
 ---
 
 Buse is a PhD candidate with research focus on improving capabilities of multi-modal AI models to have comprehensive understanding of scientific documents such as conference papers. She is also interested in factuality and fairness in large models such as LLMs. Before her PhD, she was an undergraduate student at Istanbul Technical University studying a double major in Computer Engineering and Industrial Engineering. 

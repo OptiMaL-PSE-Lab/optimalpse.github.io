@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Research Assistant
+role: Postdoctoral Research Associate
 
 # Organizations/Affiliations
 # organizations:
@@ -22,7 +22,7 @@ role: Research Assistant
 #     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Daniel is a Research Assistant working on Value & Supply Chain Design and Optimisation. He holds a PhD in Chemical and Environmental Engineering from the University of Padova, where his research focused on the optimal design of sustainable production systems. Daniel's expertise includes developing advanced optimisation strategies and integrating sustainability into supply chains. His work combines mathematical optimisation, decision-making under uncertainty, and supply chain management, using techniques like robust and stochastic optimisation to enhance decision-making and improve supply chain performance in chemical processes and manufacturing.
+bio: Daniel is a Postdoctoral Research Associate working on Value & Supply Chain Design and Optimisation. He holds a PhD in Chemical and Environmental Engineering from the University of Padova, where his research focused on the optimal design of sustainable production systems. Daniel's expertise includes developing advanced optimisation strategies and integrating sustainability into supply chains. His work combines mathematical optimisation, decision-making under uncertainty, and supply chain management, using techniques like robust and stochastic optimisation to enhance decision-making and improve supply chain performance in chemical processes and manufacturing.
 
 interests:
   - Supply Chain Optimization
@@ -66,4 +66,4 @@ user_groups:
   - Postdoctoral & Affiliated Researchers
 ---
 
-Daniel is a Research Assistant working on Value & Supply Chain Design and Optimisation. He holds a PhD in Chemical and Environmental Engineering from the University of Padova, where his research focused on the optimal design of sustainable production systems. Daniel's expertise includes developing advanced optimisation strategies and integrating sustainability into supply chains. His work combines mathematical optimisation, decision-making under uncertainty, and supply chain management, using techniques like robust and stochastic optimisation to enhance decision-making and improve supply chain performance in chemical processes and manufacturing.
+Daniel is a Postdoctoral Research Associate working on Value & Supply Chain Design and Optimisation. He holds a PhD in Chemical and Environmental Engineering from the University of Padova, where his research focused on the optimal design of sustainable production systems. Daniel's expertise includes developing advanced optimisation strategies and integrating sustainability into supply chains. His work combines mathematical optimisation, decision-making under uncertainty, and supply chain management, using techniques like robust and stochastic optimisation to enhance decision-making and improve supply chain performance in chemical processes and manufacturing.

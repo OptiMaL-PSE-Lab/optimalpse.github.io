@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Luxi Yu
+title: Dr. Luxi Yu
 
 # Full name (for SEO)
 first_name: Luxi
@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Towards online quality control of biotherapeutics through soft sensing of intracellular states
+role: Bioprocess Modelling Engineer at Polymodels Hub, former PhD student at OptiML (2021-2025)
 
 # Organizations/Affiliations
 # organizations:
@@ -56,7 +56,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - PhD Students
+  - Alumni
 ---
 
 My name is Luxi and I’m a final year PhD student supervised by Cleo Kontoravdi and co-supervised by Antonio del Rio Chanona. My research interest lies in between process modelling simulation and biotherapeutics production in mammalian cell culture. My PhD project consists of both the computational side and the experimental side in the wet lab.

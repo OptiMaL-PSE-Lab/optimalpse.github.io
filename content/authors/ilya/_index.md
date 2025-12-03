@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ilya Orson Sandoval
+title: Dr. Ilya Orson Sandoval
 
 # Full name (for SEO)
 first_name: Ilya
@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Knowledge-driven Autonomous Systems - Neural ODEs and Reinforcement Learning
+role: AI Research Scientist at American Express, former PhD student at OptiML (2021-2025)
 
 # Organizations/Affiliations
 # organizations:
@@ -74,7 +74,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - PhD Students
+  - Alumni
 ---
 
 I am a PhD candidate at Imperial College London, where my research focuses on the intersection of reinforcement learning, differentiable programming and nonlinear optimal control. Curiosity driven, usually by applied mathematics and computer simulations with applications over multiple fields! Previously, I worked in data science and software engineering within the energy and food industries in Mexico. I have a background in theoretical and computational physics.

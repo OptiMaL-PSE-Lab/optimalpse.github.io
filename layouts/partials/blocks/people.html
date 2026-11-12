@@ -55,6 +55,9 @@
         {{ else if $avatar }}
           {{ $avatar_image := $avatar.Fill "270x270 Center" }}
           {{ $src = $avatar_image.RelPermalink }}
+        {{ else }}
+          {{/* Blank placeholder so cards without a photo stay aligned. */}}
+          {{ $src = "images/avatar-placeholder.svg" | relURL }}
         {{ end }}
         {{ if $src }}
           {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}

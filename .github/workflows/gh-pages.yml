@@ -20,6 +20,11 @@ jobs:
           submodules: true  # Fetch any Git submodules (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Validate author profiles
+        run: |
+          pip install pyyaml
+          python .github/scripts/validate_profiles.py
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:

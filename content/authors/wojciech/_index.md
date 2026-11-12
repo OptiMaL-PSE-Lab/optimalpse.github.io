@@ -21,7 +21,7 @@ role: Postdoctoral Research Associate
 #     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 	Wojciech obtained his PhD in Chemistry from the University of Warwick, where he developed machine learning models for gas-surface dynamics using uncertainty-driven adaptive sampling. His work focused on machine learning interatomic potentials and models that capture nonadiabatic effects, enabling fast and accurate simulation of dynamics at metal surfaces. In 2025, he joined Imperial as a Research Associate in AI for Chemistry, where he works with multiple research groups within the AIchemy Hub on a collaborative project focused on molecular property prediction and multi-fidelity Bayesian optimisation for chemical experiments.
+bio: Wojciech obtained his PhD in Chemistry from the University of Warwick, where he developed machine learning models for gas-surface dynamics using uncertainty-driven adaptive sampling. His work focused on machine learning interatomic potentials and models that capture nonadiabatic effects, enabling fast and accurate simulation of dynamics at metal surfaces. In 2025, he joined Imperial as a Research Associate in AI for Chemistry, where he works with multiple research groups within the AIchemy Hub on a collaborative project focused on molecular property prediction and multi-fidelity Bayesian optimisation for chemical experiments.
 
 
 interests:

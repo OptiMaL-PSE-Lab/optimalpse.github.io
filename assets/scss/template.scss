@@ -440,29 +440,6 @@ caption {
   margin-top: 4px;
 }
 
-/* Visitors compact list */
-.visitors-list {
-  list-style: none;
-  padding: 0;
-  columns: 2;
-  column-gap: 30px;
-}
-
-.visitors-list li {
-  padding: 6px 0;
-  border-bottom: 1px solid #eee;
-  break-inside: avoid;
-}
-
-.visitors-list li a {
-  color: #000000;
-  text-decoration: none;
-}
-
-.visitors-list li a:hover {
-  text-decoration: underline;
-}
-
 .nav-link .caret {
   margin-left: 3px;
 }

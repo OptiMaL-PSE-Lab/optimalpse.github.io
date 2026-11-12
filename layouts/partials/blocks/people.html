@@ -35,64 +35,40 @@
     {{ $sort_order := cond $sort_ascending "asc" "desc" }}
     {{ $query = sort $query $sort_by $sort_order }}
 
-    {{/* Render Visitors as a compact list without photos */}}
-    {{ if eq $group "Visitors" }}
-      {{ if $query }}
-        <div class="col-md-12">
-          <h2 class="mb-4">{{ $group | markdownify }}</h2>
-        </div>
-        <div class="col-md-12">
-          <ul class="visitors-list">
-            {{ range $query }}
-              {{ $link := "" }}
-              {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
-                {{ $link = .RelPermalink }}
-              {{ end }}
-              <li>
-                <strong>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</strong>
-                {{ if .Params.role }} — {{ .Params.role | markdownify | emojify }}{{ end }}
-              </li>
-            {{ end }}
-          </ul>
-        </div>
-      {{ end }}
-    {{ else }}
-      {{/* Standard rendering with photos for all other groups */}}
-      {{if $query | and (gt (len $block.content.user_groups) 1) }}
-        <div class="col-md-12">
-          <h2 class="mb-4">{{ . | markdownify }}</h2>
-        </div>
-      {{end}}
+    {{if $query | and (gt (len $block.content.user_groups) 1) }}
+      <div class="col-md-12">
+        <h2 class="mb-4">{{ . | markdownify }}</h2>
+      </div>
+    {{end}}
 
-      {{ range $query }}
-        {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
-        {{/* Get link to user's profile page. */}}
-        {{ $link := "" }}
-        {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
-          {{ $link = .RelPermalink }}
+    {{ range $query }}
+      {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+      {{/* Get link to user's profile page. */}}
+      {{ $link := "" }}
+      {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
+        {{ $link = .RelPermalink }}
+      {{ end }}
+      <div class="col-12 col-sm-auto people-person">
+        {{ $src := "" }}
+        {{ if site.Params.features.avatar.gravatar }}
+          {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
+        {{ else if $avatar }}
+          {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+          {{ $src = $avatar_image.RelPermalink }}
         {{ end }}
-        <div class="col-12 col-sm-auto people-person">
-          {{ $src := "" }}
-          {{ if site.Params.features.avatar.gravatar }}
-            {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
-          {{ else if $avatar }}
-            {{ $avatar_image := $avatar.Fill "270x270 Center" }}
-            {{ $src = $avatar_image.RelPermalink }}
-          {{ end }}
-          {{ if $src }}
-            {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
-            {{with $link}}<a href="{{.}}">{{end}}<img width="270" height="270" loading="lazy" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="Avatar">{{if $link}}</a>{{end}}
-          {{ end }}
+        {{ if $src }}
+          {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
+          {{with $link}}<a href="{{.}}">{{end}}<img width="270" height="270" loading="lazy" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="Avatar">{{if $link}}</a>{{end}}
+        {{ end }}
 
-          <div class="portrait-title">
-            <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
-            {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
-            {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
-            {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
-            {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
-          </div>
+        <div class="portrait-title">
+          <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
+          {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
+          {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
+          {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
+          {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
         </div>
-      {{ end }}
+      </div>
     {{ end }}
   {{ end }}
 </div>

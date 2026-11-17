@@ -1,0 +1,28 @@
+{{/*
+  News list: photo on the left, text on the right, newest first.
+  Items live in data/news.json — add LinkedIn posts with scripts/add_news.py.
+*/}}
+{{- $fallback := "" -}}
+{{- with resources.Get "media/logo.png" -}}{{ $fallback = .RelPermalink }}{{- end -}}
+{{- $items := sort (site.Data.news | default slice) "date" "desc" -}}
+<div class="news-feed">
+  {{- range $items }}
+  {{- $link := .link | default "" }}
+  <article class="news-item">
+    <div class="news-item__media{{ if not .image }} news-item__media--logo{{ end }}">
+      {{- $src := cond (isset . "image") (relURL .image) $fallback }}
+      {{- if $link }}<a href="{{ $link }}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">{{ end }}
+      <img src="{{ $src }}" alt="" loading="lazy">
+      {{- if $link }}</a>{{ end }}
+    </div>
+    <div class="news-item__body">
+      {{- with .date }}<time class="news-item__date" datetime="{{ . }}">{{ (time .).Format "2 January 2006" }}</time>{{ end }}
+      {{- with .title }}<h3 class="news-item__title">{{ . }}</h3>{{ end }}
+      <div class="news-item__text">{{ .text | htmlEscape | replaceRE "\n" "<br>" | safeHTML }}</div>
+      {{- if $link }}
+      <a class="news-item__more" href="{{ $link }}" target="_blank" rel="noopener">Read on LinkedIn <i class="fab fa-linkedin"></i></a>
+      {{- end }}
+    </div>
+  </article>
+  {{- end }}
+</div>

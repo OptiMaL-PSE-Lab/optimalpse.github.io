@@ -1,0 +1,472 @@
+[
+  {
+    "id": "7524930865219526657",
+    "date": "2026-11-08",
+    "text": "🎤 AIChE Annual Conference Presentation # 7\n\n Our last talk at AIChE 2026 is from Max Bloor!\n\n📌 Talk: Addressing Terminal Constraints in Reinforcement Learning-Based Demand Response Scheduling\n\n👥 Authors: Max Bloor (presenting), Martha White, Calvin Tsay, Ehecatl Antonio del Rio Chanona\n \nElectrified chemical plants can save money by shifting their load in time with respect to electricity prices however, the stored product has to be at a safe level for the following scheduling period. This creates a sparse learning problem for data-driven algorithms, such as RL, since the storage penalty is only at the end of a horizon that can be 72 hours long. Max will show how Goal-Space Planning splits that horizon into storage-level subgoals, which propagates information on how early decisions effected the terminal constraint satisfaction. On an air separation unit benchmark, it matches the savings of vanilla RL approaches with significantly fewer training episodes.\n\nPreprint (IFAC World Congress 2026): https://lnkd.in/er7PdAkb\nEarlier work, Hierarchical RL-MPC (DYCOPS 2025): https://lnkd.in/eatQXzDF\n \n📅 Thursday, November 12, 2026\n🕑 12:48 to 1:06 PM CST\n📍 Room 101C (Level 1), Minneapolis Convention Center, Minneapolis, MN\n🎯 Session 688, AI/ML and Data-Driven Control III: Constraints, Safety, and Scale\n \n#AIChEAnnual2026 #AIinChemicalEngineering #ReinforcementLearning #DemandResponse #Electrification #ProcessSystemsEngineering\nImperial College London Department of Chemical Engineering AIChE - American Institute of Chemical Engineers",
+    "link": "https://www.linkedin.com/posts/aicheannual2026-aiinchemicalengineering-reinforcementlearning-share-7524930865219526657-wJcY/",
+    "image": "images/news/7524930865219526657.jpg"
+  },
+  {
+    "id": "7524927834033758208",
+    "date": "2026-11-07",
+    "text": "🎤 AIChE Annual Conference Presentation # 6\n\nOur next AIChE talk will be given by Max Bloor!\n\n📌 Talk: Non-Parametric Q-Learning for Process Systems Engineering\n\n👥 Authors: Max Bloor (presenting), Max Mowbray, Ehecatl Antonio del Rio Chanona, Calvin Tsay\n\nSelf-driving labs and automated bioprocess platforms must learn a controller from tens to hundreds of experiments, each one expensive. Deep RL typically needs thousands of episodes, and tuning it costs even more experiments. Max will present Heteroscedastic Gaussian Process Q-learning (HGPQ), which learns the Q-function directly with a Gaussian process and needs no tuned learning rate. Each update is trusted according to how well the next time step's GP uncertainty estimate, and the value estimate provably converges to the optimal Q-function over the explored region. The algorithm is tested over a range of chemical, biological and classical control tasks which show improvements in sample efficiency over previous GP Q-learning and deep RL techniques.\n \nCome along if you work on control or experimentation where every run counts!\n\nEarlier GPQL paper (RLC 2025): https://lnkd.in/eiVPZaWX\n \n📅 Thursday, November 12, 2026\n🕑 9:30 to 9:48 AM CST\n📍 Room 101C (Level 1), Minneapolis Convention Center, Minneapolis, MN\n🎯 Session 656, AI/ML and Data-Driven Control II: Modern Learning Techniques\n \n#AIChEAnnual2026 #AIinChemicalEngineering #ReinforcementLearning #GaussianProcesses #SelfDrivingLabs #ProcessControl #ProcessSystemsEngineering\nImperial College London Imperial College Computing The Sargent Centre for Process Systems Engineering Department of Chemical Engineering AIChE - American Institute of Chemical Engineers",
+    "link": "https://www.linkedin.com/posts/aicheannual2026-aiinchemicalengineering-reinforcementlearning-share-7524927834033758208-H13j/",
+    "image": "images/news/7524927834033758208.jpg"
+  },
+  {
+    "id": "7524516189369253888",
+    "date": "2026-11-06",
+    "text": "🎤 AIChE Annual Conference Presentation # 5\n\nOur next AIChE talk will be given by Matthew Marsh 🏑 🧠 \n \n📌 Talk: Distribution-Free Uncertainty Quantification In Constrained Neural Networks for Model Predictive Control\n\n👥 Authors: Matthew Marsh, Benoit Chachuat, Ehecatl Antonio del Rio Chanona\n\nHow can we ensure neural network models are physically consistent and provide reliable uncertainty estimates for safe process control?\n\nIn this talk, we combine differentiable constraint projection layers with conformal prediction to guarantee satisfaction of known physical relationships while providing distribution-free uncertainty quantification. We demonstrate how these properties can be exploited within nonlinear model predictive control to improve reliability under noisy data and process disturbances.\n\nLink: https://lnkd.in/erqCxB_4\n\n📅 Thursday 12th November 2026\n🕑 8:00-8:18 CST\n📍 Room 101C (Level 1, Minneapolis Convention Centre)\n🎯 Theme 10B: AI/ML and Data-Driven Control - II. Modern Learning Techniques\n\n#AIChEAnnual2026 #ArtificialIntelligence #MachineLearning #NeuralNetworks #UncertaintyQuantification #ConformalPrediction #ModelPredictiveControl #ProcessSystemsEngineering #ChemicalEngineering #SafeAI #NeuralNetworks\nImperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering AIChE - American Institute of Chemical Engineers",
+    "link": "https://www.linkedin.com/posts/distribution-free-uncertainty-quantification-share-7524516189369253888-X3VE/"
+  },
+  {
+    "id": "7524417236321673216",
+    "date": "2026-11-06",
+    "text": "🎤 AIChE Annual Conference Presentation # 4\n\nOur next AIChE talk will be given by Emma Pajak!\n\n📌 Talk: Sketch2Simulation: Automating Flowsheet Generation Via Multi-Agent Large Language Models\n\nAuthors: Abdullah Bahamdan, Emma Pajak, Rohit Patwardhan, Kalpesh Patel, John Hedengren, Ehecatl Antonio del Rio Chanona\n\nConverting process diagrams into executable simulation models traditionally requires substantial manual effort and simulator-specific expertise. \n\nSketch2Simulation introduces an end-to-end multi-agent LLM framework that automates this process, translating raw engineering diagrams directly into Aspen HYSYS flowsheets. Combining diagram interpretation, simulation model generation and multi-level validation, the framework demonstrates the potential of multi-agent AI to automate complex process engineering workflows.\n \nJoin us to learn how multi-agent LLMs can automate the gap between process flow diagrams and flowsheet simulation models.\n \n📄 Read it on arXiv: https://lnkd.in/eTmC6rdW\n\n📅 Wednesday, 11 November 2026\n🕑 1:42 PM – 2:00 PM CST\n📍 Room M100B, Minneapolis Convention Center, Minneapolis, MN\n🎯 Theme 10A – Advances in Process Design II\n\n#AIChEAnnual2026 #ProcessSystemsEngineering #ArtificialIntelligence #LargeLanguageModels #ProcessSimulation #MultiAgentSystems\nImperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering AIChE - American Institute of Chemical Engineers",
+    "link": "https://www.linkedin.com/posts/aicheannual2026-processsystemsengineering-share-7524417236321673216-J_Uy/",
+    "image": "images/news/7524417236321673216.jpg"
+  },
+  {
+    "id": "7524043614495248384",
+    "date": "2026-11-05",
+    "text": "🎤 AIChE Annual Conference Presentation # 3\n\nOur next AIChE talk will be given by Isabela Fons!\n\n📌 Talk: Enhancing Multi-Agent Reinforcement Learning Via Imitation Learning for Scalable Optimization of Energy Communities\n\n👥 Authors: Isabela Fons, Raquel Salcedo-Díaz, Ruben Ruiz-Femenia, Jose Antonio Caballero and Ehecatl Antonio del Rio Chanona\n\nEach of us can contribute to building a more sustainable energy system, and #ReinforcementLearning can help us there!\n\nIn this study, we demonstrate how combining #MultiAgent Reinforcement Learning with conventional control can improve energy savings in a small-scale residential energy network by making better use of the flexibility offered by renewable energy sources and storage systems.\n\nhttps://lnkd.in/ea2mBewT \n\n📅 Tuesday 10th November 2026\n🕒 9:30 AM - 9:48 AM CST\n📍 Room M100AB (Mezzanine Level, Minneapolis Convention Center)\n🎯 Theme 10B: AI/ML and Data-Driven Control - I. Hybrid Modeling\n\n#AIChEAnnual2026 #EnergyCommunities #SmartGrids #ImitationLearning\nImperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering AIChE - American Institute of Chemical Engineers Universitat d'Alacant",
+    "link": "https://www.linkedin.com/posts/enhancing-multi-agent-reinforcement-learning-share-7524043614495248384-CHsU/"
+  },
+  {
+    "id": "7524121742722637824",
+    "date": "2026-11-05",
+    "text": "🧪 AIChE Annual Conference Poster\n\nEmma Pajak will be presenting her poster \"Rethinking LLM-In-the-Loop-Bayesian Optimisation: Where, How, and When Should LLMs Be Integrated?\" at AIChE 2026!\n\nCome by to discuss how LLMs can support scientific discovery and engineering optimisation, and where they can add the most value within Bayesian optimisation.\n\n📅 Date: Tuesday, 10 November 2026\n🕑 Time: 3:30 PM – 5:00 PM CST\n📍 Location: Exhibit Hall B, Minneapolis Convention Center, Minneapolis, MN\n🎯 Theme: 10C – Interactive Session: Systems and Process Operations\n\n#AIChEAnnual2026 #ProcessSystemsEngineering #ArtificialIntelligence #LargeLanguageModels #BayesianOptimisation\nImperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering AIChE - American Institute of Chemical Engineers",
+    "link": "https://www.linkedin.com/posts/aicheannual2026-processsystemsengineering-share-7524121742722637824-Zj2c/"
+  },
+  {
+    "id": "7523742582825205760",
+    "date": "2026-11-04",
+    "text": "🎤 AIChE Annual Conference Presentation # 2\n\nOur next AIChE talk will be given by Samuel Stricker 🙌\n\n📌 Talk: Human-In-the-Loop Multi-Objective Bayesian Optimization for Robust and Constraint-Aware Bioprocess Development\n\n👥 Authors: Samuel Stricker, Lucas Francisco dos Santos, Claus Wirnsperger, Alessandro Butte, Laura Marie Helleckes, Gonzalo Guillen Gosalbez, Ehecatl Antonio del Rio Chanona, Mehmet Mercangöz\n\n🧪 Bayesian Optimization can cut the number of experiments needed in bioprocess development, but a black-box algorithm that can’t take expert knowledge on board is hard to trust in a regulated, quality-by-design setting. \n\n🧑‍🔬 Come see how Pareto Front Guided Sampling puts the scientist back in control by laying out the trade-offs between titer, uncertainty, constraint satisfaction, and robustness, so experts can steer each round of experiments with their process knowledge. 🧠\n\n📅 Monday 9th November 2026\n🕒 3:50 PM - 4:10 PM CST\n📍 Room M100C, Mezzanine Level, Minneapolis Convention Center\n🎯 Theme 10E Machine Learning Tools for Pharmaceuticals and Bioprocessing\n\n#AIChEAnnual2026 #HumanInTheLoop #BayesianOptimization #ParetoFront #GaussianProcess #ConstrainedOptimization #RobustOptimization #BioprocessDevelopment\nImperial College London DataHow AG SuperLab The Sargent Centre for Process Systems Engineering Department of Chemical Engineering AIChE - American Institute of Chemical Engineers",
+    "link": "https://www.linkedin.com/posts/aicheannual2026-humanintheloop-bayesianoptimization-share-7523742582825205760-ZC53/",
+    "image": "images/news/7523742582825205760.jpg"
+  },
+  {
+    "id": "7523400160089931776",
+    "date": "2026-11-03",
+    "text": "🚀 Excited for the AIChE Annual Meeting 2026 in Minneapolis!\n\nOptiML PSE members from Imperial's Department of Chemical Engineering will be presenting our latest research across #BayesianOptimization, #UncertaintyQuantification, #ReinforcementLearning, physics-informed #MachineLearning, and #LLMs for process simulation 🤖🧠⚙️\n\nLooking forward to sharing our work, exchanging ideas and connecting with the wider chemical engineering community! 🤝\n\nSee you in Minneapolis! 👋\n\n#AIChEAnnual2026",
+    "link": "https://www.linkedin.com/posts/bayesianoptimization-uncertaintyquantification-share-7523400160089931776-iZiB/",
+    "image": "images/news/7523400160089931776.jpg"
+  },
+  {
+    "id": "7523395094943576065",
+    "date": "2026-11-03",
+    "text": "🎤 AIChE Annual Conference Presentation # 1\n\nKicking off our AIChE talks next week will be Matthew Marsh! 🚀\n\n📌 Talk: Bayesian Embedding of Equality Constraints within Probabilistic Neural Networks for Uncertainty Aware Process Modelling\n\n👥 Authors: Matthew Marsh, Benoit Chachuat, Ehecatl Antonio del Rio Chanona\n\n🧠 How can we embed physical constraints into neural networks while reliably quantifying uncertainty in the presence of limited and noisy data?\n\nIn this work, we develop conditioning layers that guarantee constraint satisfaction within a learned tolerance, alongside Laplace approximations for tractable uncertainty quantification.\n\nRelated preprint: https://lnkd.in/ea7trVHa\nAIChE link: https://lnkd.in/e79KKq9X\n\n📅 Monday 9th November 2026\n🕑  1:08 PM - 1:27 PM (CST)\n📍 Room M100E, Mezzanine Level, Minneapolis Convention Centre\n🎯 Theme: 10E Advances in Machine Learning and Intelligent Systems I\n\n#AIChEAnnual2026 #MachineLearning #ArtificialIntelligence #PhysicsInformedMachineLearning #BayesianLearning #UncertaintyQuantification #NeuralNetworks #ProcessSystemsEngineering #ChemicalEngineering #DataDrivenModelling\nImperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering AIChE - American Institute of Chemical Engineers",
+    "link": "https://www.linkedin.com/posts/aicheannual2026-machinelearning-artificialintelligence-share-7523395094943576065-bfxZ/",
+    "image": "images/news/7523395094943576065.jpg"
+  },
+  {
+    "id": "7522958454181928960",
+    "date": "2026-11-02",
+    "text": "👋 We’re honoured to welcome Marco Barbacci Schettino back to the OptiML PSE group as an incoming PhD student!\n\nMarco holds an MEng in #ChemicalEngineering from Imperial College London, where his research focused on machine learning-enhanced reactor design and optimisation. He also completed a UROP with our group on deep learning in chemical design. 🤖🧪\n\nHis PhD will focus on data-driven #ModelPredictiveControl for bioprocesses, under the supervision of Ehecatl Antonio del Rio Chanona and Laura Marie Helleckes. 🧫⚙️📊\n\nWe’re looking forward to having Marco back in the group and following the progress of his research!\n\n#Bioprocessing #MachineLearning #ProcessSystemsEngineering #ImperialCollegeLondon\nThe Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/chemicalengineering-modelpredictivecontrol-share-7522958454181928960-NZUb/",
+    "image": "images/news/7522958454181928960.jpg"
+  },
+  {
+    "id": "7521238639582908416",
+    "date": "2026-10-28",
+    "text": "We’re pleased to welcome Daniel M. to the group as a new PhD student! 👋\n\nDaniel holds an MEng in Chemical Engineering from Imperial College London. Before starting his PhD, he spent two years working in pre-FEED process engineering at KBR, Inc.\n\nDuring his PhD, he will be applying #MachineLearning to improve deterministic global optimisation solvers for mixed-integer nonlinear programs (MINLPs), under the supervision of Ehecatl Antonio del Rio Chanona and Benoit Chachuat. 🤖⚙️📈\n\nDaniel’s research interests centre on the global optimisation of process flowsheets, and we’re looking forward to seeing his work develop!\n\n#GlobalOptimisation #MINLP #ProcessSystemsEngineering #PhD #ChemicalEngineering #ImperialCollegeLondon\nThe Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/machinelearning-globaloptimisation-minlp-share-7521238639582908416-eluq/",
+    "image": "images/news/7521238639582908416.jpg"
+  },
+  {
+    "id": "7516179726223208449",
+    "date": "2026-10-14",
+    "text": "🎉 Welcome to the new academic year!\n\nAt OptiML PSE, we’ve kicked off the year with our first group meeting and a group Hackathon at the Imperial College London White City Campus!\n\nThis year, we had the pleasure of welcoming back Isabela Fons to host the hackathon. We split into teams and competed to learn the best #ReinforcementLearning policy for residential energy management, with the goal to minimise energy costs, maintain a comfortable indoor temperature, and ensure sufficient battery charge for EV trips. ⚡🏡🚗\n\nCongratulations to our hackathon winners Daniel Crîstiu, Max Bloor, Ammar Ali, and Yukang Wu! 🏆\n\nBeyond the hackathon, we also had the chance to get to know each other better and explore topics beyond our #MachineLearning and #ProcessSystemsEngineering expertise through a spot quiz organised by Emma Pajak.\n\nHere’s to another year of research, learning, and collaboration!",
+    "link": "https://www.linkedin.com/posts/reinforcementlearning-machinelearning-processsystemsengineering-share-7516179726223208449-jj2w/",
+    "image": "images/news/7516179726223208449.jpg"
+  },
+  {
+    "id": "7512781472236224512",
+    "date": "2026-10-05",
+    "text": "🎓 We’re delighted to celebrate Dr Niki Kotecha, who has successfully completed her PhD with our OptiML PSE group at Imperial College London! 🎉\n\nNiki’s PhD focused on multi-agent reinforcement learning for decision making under uncertainty. Many thanks to her PhD examiners, Prof. Michel-Alexandre Cardin and Prof. Alexandra Brintrup, for an excellent viva and scientific discussion.\n\nIt has been a real pleasure having Niki in the group and seeing her research develop over the course of her PhD and holding up the multi-agent reinforcement learning frontier! We are also very excited to see what comes next: Niki is now Co-Founder of Lamb Labs (YC S26), where she is working on custom chips for the fastest AI inference at the lowest power. 🚀\n\nIf you are interested in some of Niki’s work during her PhD:\n\n📄 Leveraging graph neural networks and multi-agent reinforcement learning for inventory control in supply chains\nhttps://lnkd.in/eYcFZt-S \n📄 MORSE: Multi-Objective Reinforcement Learning via Strategy Evolution for Supply Chain Optimization\nhttps://lnkd.in/eKFRQntF\n📄 An analysis of multi-agent reinforcement learning for decentralized inventory control systems\nhttps://lnkd.in/efcjB8iN\n📄 Control-informed reinforcement learning for chemical processes\nhttps://lnkd.in/eah8A_Ja\n\nCongratulations, Niki! It has been fantastic having you as part of the group, and we look forward to following everything you do next! 🎓🤖📦🚀\n\n#ReinforcementLearning #MultiAgentReinforcementLearning #SupplyChainOptimization #MachineLearning #ArtificialIntelligence #ProcessSystemsEngineering #ChemicalEngineering #InventoryControl #ImperialCollegeLondon #PhD\nThe Sargent Centre for Process Systems Engineering\nDepartment of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/reinforcementlearning-multiagentreinforcementlearning-share-7512781472236224512-RTiC/",
+    "image": "images/news/7512781472236224512.jpg"
+  },
+  {
+    "id": "7511400404971204608",
+    "date": "2026-10-01",
+    "text": "🏆We’re delighted to share that Laura Marie Helleckes has received an Imperial College London ECRI award for Supporting Research Staff and Students! 🎉\n\nThe award recognises research staff who go above and beyond to support colleagues and students, whether through mentoring, providing guidance and advice, supporting wellbeing, helping new researchers settle in, or contributing to their career development.\n\nLaura was nominated independently by not one, not two, but three people! This reflects the outstanding impact she has had on the researchers and students she has supported during her time with us. 👏\n\nAs part of the award, Laura also receives a £250 voucher and a certificate. 🎁\n\nCongratulations, Laura, and thank you for all the support, encouragement and time you’ve given to those around you! 🌟\n\n#ImperialCollegeLondon #ResearchStaff #Mentoring #ECRIAwards Early Career Researcher Institute",
+    "link": "https://www.linkedin.com/posts/imperialcollegelondon-researchstaff-mentoring-share-7511400404971204608-W4tn/",
+    "image": "images/news/7511400404971204608.jpg"
+  },
+  {
+    "id": "7510628359807348737",
+    "date": "2026-09-29",
+    "text": "📚Rounding out this summer’s starters, we’re delighted to welcome Roberto Espinosa Pérez to the group! 👋\n\nRoberto is visiting us to complete his Bachelor’s thesis at Universidad Nacional Autónoma de México (UNAM), as part of his degree in Chemical Engineering. He also holds a Diploma in Statistical and Mathematical Methods for Data Science from the same university, and has experience in data analytics as a Strategic Planning intern at DiDi.\n\nDuring his stay with us, he will be working on integrating scheduling and control with #ReinforcementLearning to solve intractable #Optimisation problems, under the supervision of Ehecatl Antonio del Rio Chanona and Paulina Quintanilla. 🤖🧠📊\n\nRoberto’s research interests focus on industrial AI, data science, reinforcement learning, and software development, and we’re looking forward to seeing his work develop!\n\n#Optimisation #ReinforcementLearning #ProcessControl #ChemicalEngineering #ProcessSystemsEngineering #MachineLearning #ImperialCollegeLondon\nImperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/reinforcementlearning-optimisation-optimisation-share-7510628359807348737-D3tX/",
+    "image": "images/news/7510628359807348737.jpg"
+  },
+  {
+    "id": "7510314552278933505",
+    "date": "2026-09-28",
+    "text": "📚We’re delighted to welcome Anna Konovalenko to the group! 👋\n\nAnna joins us as a Postdoctoral Research Associate. She completed her PhD at Molde University College, Norway (under Prof. Lars Magnus Hvattum’s supervision) where her research focused on advancing machine learning methods for complex optimisation problems. She also holds degrees in Computer Science and Applied Mathematics, and has industry experience as a Software Engineer at OneReach.ai and Panenco | software studio.\n\nIn her new role, Anna will collaborate with Ehecatl Antonio del Rio Chanona from Imperial College London and the rest of the OptiML PSE team on developing agentic AI and LLM-based workflows to automate process digitalisation. She will also explore reinforcement learning alongside probabilistic and data-driven optimisation methods.\nWe're excited to have Anna on board and look forward to seeing her research take shape!\n 🧪📊🤖\n\n#DataDrivenOptimisation #MachineLearning #ChemicalEngineering #BayesianOptimization #LargeLanguageModels #ProcessSystemsEngineering #ReinforcementLearning #ImperialCollegeLondon The Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/datadrivenoptimisation-machinelearning-chemicalengineering-share-7510314552278933505-DuHr/",
+    "image": "images/news/7510314552278933505.jpg"
+  },
+  {
+    "id": "7509182084482265088",
+    "date": "2026-09-25",
+    "text": "📚Welcoming a new MSc student to the group, Hanaé Ben Makhlouf! 👋\n\nHanaé is a French student currently studying for an MSc in Computer Science and Engineering, as part of a double-degree programme between KTH Royal Institute of Technology and Centrale Lille. She has a background in Mathematics and Physics from Centrale Lille (BSc), alongside experience in machine learning, deep learning and programming.\n\nDuring her time with us, she’ll be focusing on #MultiAgentSystems and #ReinforcementLearning, building on her previous academic projects in areas including text-based emotion detection, air quality prediction using weather data, and wildfire forecasting. She will be working with supervision from Ehecatl Antonio del Rio Chanona and Max Bloor, from Imperial College London, and Johan Boye, from KTH Royal Institute of Technology 🤖🧠📊\n\nHanaé’s research interests include reinforcement learning, multi-agent systems and large language models, and we’re delighted to have her as part of the group!\n\n#MachineLearning #ReinforcementLearning #MultiAgentSystems #LargeLanguageModels #DeepLearning #ImperialCollegeLondon The Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/multiagentsystems-reinforcementlearning-machinelearning-share-7509182084482265088-8u7q/",
+    "image": "images/news/7509182084482265088.jpg"
+  },
+  {
+    "id": "7508807788874305536",
+    "date": "2026-09-24",
+    "text": "📚We’re delighted to welcome Lisia Dias to the group! 👋\n\nLisia recently joined the group as a Research Associate in Data-Driven Optimisation for Process Scale-Up. She holds a PhD in Chemical Engineering from Rutgers University and has extensive industrial experience developing and deploying optimisation and scheduling solutions for pharmaceutical manufacturing.\n\nLisia will work in collaboration with Ehecatl Antonio del Rio Chanona and Calvin Tsay, from Imperial College London, with Jose Pablo Folch and Linden Schrecker from SOLVE Chemistry, and Charles Gordon from Mettler-Toledo International, Inc focusing on combining reaction kinetics, process modelling, multi-fidelity optimisation and machine learning to improve chemical process development and scale-up. \n\nIn particular, she is interested in using high-density transient-flow data to develop kinetic models and exploring how large language models can support experimental and engineering decision-making.\n\nWe’re delighted to have Lisia as part of the group and look forward to seeing how her research develops! 🧪📊🤖\n\n#DataDrivenOptimisation #ProcessScaleUp #MachineLearning #ChemicalEngineering #BayesianOptimization #LargeLanguageModels #ProcessSystemsEngineering #ImperialCollegeLondon Imperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/datadrivenoptimisation-processscaleup-machinelearning-share-7508807788874305536-N2r4/",
+    "image": "images/news/7508807788874305536.jpg"
+  },
+  {
+    "id": "7508074862024785920",
+    "date": "2026-09-22",
+    "text": "📚We’re also welcoming a visiting PhD student to the group: Tova Alenfalk! 👋\n\nTova is currently a PhD student at DTU, with a background in Biotechnology from Lund University, where she completed both her BSc and MSc degrees. Her PhD focuses on how machine learning methods can be used to support sustainable bioprocess development.\n\nDuring her visit at Imperial, she’ll be working with Laura Marie Helleckes and Ehecatl Antonio del Rio Chanona to develop a Bayesian optimisation framework for sustainable bioprocess development. 🧫📊🤖\n\nWe’re delighted to have Tova as part of the group and look forward to seeing how the project develops!\n\n#Bioprocess #Biotechnology #MachineLearning #BayesianOptimization #Sustainability #ProcessSystemsEngineering #ImperialCollegeLondon Imperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/bioprocess-biotechnology-machinelearning-share-7508074862024785920-ST5V/",
+    "image": "images/news/7508074862024785920.jpg"
+  },
+  {
+    "id": "7507738490684473344",
+    "date": "2026-09-21",
+    "text": "📚Welcoming our UROP student Tiara Anna Jain to the group!\n\nTiara joined us over the summer to work on LLM-in-the-loop Bayesian Optimisation for chemical engineering processes, exploring how large language models can be integrated with Bayesian optimisation approaches for chemical engineering applications. 🧪📊🤖\n\nShe has been working on this project with supervision from Ehecatl Antonio del Rio Chanona, Laura Marie Helleckes, and Samuel Stricker and has been a great addition to the group over the last few weeks!\n\n#BayesianOptimization #LLM #MachineLearning #ChemicalEngineering #ProcessSystemsEngineering #ImperialCollegeLondon The Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/bayesianoptimization-llm-machinelearning-share-7507738490684473344-M0jN/",
+    "image": "images/news/7507738490684473344.jpg"
+  },
+  {
+    "id": "7506012316631474177",
+    "date": "2026-09-16",
+    "text": "Great to see Laura scoop another award!!  💯  🔥",
+    "link": "https://www.linkedin.com/posts/great-to-see-laura-scoop-another-award-ugcPost-7506012316631474177-qZRL/",
+    "image": "images/news/7506012316631474177.jpg"
+  },
+  {
+    "id": "7501272731347279874",
+    "date": "2026-09-03",
+    "text": "📚 We were really happy to have hosted Christopher Pukas over the summer as a UROP student\n\nChris was working with Laura Marie Helleckes and Samuel Stricker on Safe Bayesian optimization 📈 , with applications to bioprocess development. Chris was also a recipient the Engineering Leaders Scholarship from the Royal Academy of Engineering! 👨‍🎓 \n\nIts been great hosting Chris this summer and wishing him well for his third year courses! 🔥 💯 ✍",
+    "link": "https://www.linkedin.com/posts/we-were-really-happy-to-have-hosted-christopher-share-7501272731347279874-XVYd/"
+  },
+  {
+    "id": "7498673336764469248",
+    "date": "2026-08-27",
+    "text": "🎤 IFAC World Congress 2026 (Busan, Korea) Showcase #4\n\nOur last IFAC talk will be given by Max Bloor! Who was also a finalist in the Applied Young Author Award! 🏆🎉\n\n🧠 Talk: Addressing Terminal Constraints in Data-Driven Demand Response Scheduling\n\nAs chemical processes become increasingly electrified, there are growing opportunities to operate flexibly in response to changing electricity prices. However, ensuring systems end in a safe and stable operating state remains a major challenge for data-driven control. ⚡🏭\n\nIn this work, Max combines reinforcement learning with goal-space planning to enable long-horizon scheduling that satisfies critical terminal constraints while improving learning efficiency. Demonstrated on an air separation benchmark, the approach significantly outperforms conventional reinforcement learning methods, producing more reliable and less myopic control policies. 🤖📈\n\n📅 Friday, 28 August\n 🕥 10:50 AM\n 📍 Room 313\n 🏷️ Machine Learning for Process Control & Optimization\n✍ Co-authored with Calvin Tsay and Martha White!\n\nAs you can see, Max has loved seeing RL in action whilst being out in Korea!🍀🏆\n\n*note this video was not generating using AI\n#IFAC2026 #ReinforcementLearning #DemandResponse #ProcessControl #MachineLearning #ProcessSystemsEngineering #ImperialCollegeLondon\nImperial College London Department of Chemical Engineering\nThe Sargent Centre for Process Systems Engineering",
+    "link": "https://www.linkedin.com/posts/ifac2026-reinforcementlearning-demandresponse-ugcPost-7498673336764469248-EeXe/",
+    "image": "images/news/7498673336764469248.jpg"
+  },
+  {
+    "id": "7498020020703096832",
+    "date": "2026-08-25",
+    "text": "🎤 IFAC World Congress 2026 (Busan, Korea) Showcase #3\n\nAnalysts are coining it the Super Wednesday for supply chain research at IFAC! 🔗🚀 Alongside Lavinia, Daniel Crîstiu will be showcasing his work on designing economically viable supply chains for Carbon Capture and Utilization (CCU). 🌱\n\n🧠 Talk: Market Mechanisms Assessment for Carbon Capture and Utilization: Optimal Supply Chain Design for Green Olefin Production\n\nCCU offers a promising route to decarbonising the chemical industry, but can it actually compete economically with conventional fossil-based production? 🌍💰\n\nIn this work, Daniel develops an optimal CCU supply chain, converting biogenic CO₂ → alcohols → green olefins, and investigates how carbon pricing, hydrogen subsidies and product credits can help close the gap with fossil-based alternatives. 🏭♻️\n\nThe results show that green olefins remain uncompetitive under current UK market conditions; but that the right combination of market mechanisms can change the picture, providing a quantitative framework for policy-aware decisions around future CCU deployment. 📊🌱\n\n📅 Wednesday, 26 August\n🕦 11:30 AM\n📍 Room 217\n🏷️ Cognition for Human-Systems Collaboration: Models and Applications (C-HSC IV)\n\nCome along to hear how optimisation, supply chain design and policy can come together to support industrial decarbonisation! 👋🌍\n\n#IFAC2026 #CarbonCapture #CCU #SupplyChainOptimization #GreenChemicals #Decarbonisation #ProcessSystemsEngineering #ImperialCollegeLondon\n\nImperial College London  Department of Chemical Engineering\nThe Sargent Centre for Process Systems Engineering",
+    "link": "https://www.linkedin.com/posts/ifac2026-carboncapture-ccu-share-7498020020703096832-alZa/"
+  },
+  {
+    "id": "7498018642018725888",
+    "date": "2026-08-25",
+    "text": "🎤 IFAC World Congress 2026 (Busan, Korea)  Showcase #2\n\nToday, Lavinia Ghilardi will present some of her work 🚀\n\n🧠Mixed-Integer Programming for Optimal Reconfiguration of Supply Chains\n\nSupply chains are increasingly exposed to structural changes driven by the energy transition and other external disruptions. In this work, she has developed a mixed-integer programming framework for optimally reconfiguring supply chains, helping preserve industrial operations and profitability as these networks evolve. 🔗📈\n\nBy combining product and spatial information to intelligently restrict the search space, the approach can rapidly identify high-quality solutions and explore alternative reconfiguration scenarios. The framework is demonstrated on an agricultural waste supply chain. 🌱♻️\n\n📅 Wednesday, 26 August\n🕥 10:50 AM\n📍 Room 313\n🏷️ Reinforcement Learning and Decision-Making for Process Systems\n\nLooking forward to Lavinia presenting her work🚀🌍\n\n#IFAC2026 #Optimization #MixedIntegerProgramming #SupplyChainOptimization #ProcessSystemsEngineering #Sustainability #ImperialCollegeLondon\n\nImperial College London Department of Chemical Engineering\nThe Sargent Centre for Process Systems Engineering",
+    "link": "https://www.linkedin.com/posts/ifac2026-optimization-mixedintegerprogramming-share-7498018642018725888-31UQ/"
+  },
+  {
+    "id": "7497487389045600256",
+    "date": "2026-08-24",
+    "text": "🎤 IFAC World Congress 2026 (Busan, Korea) Showcase #1\n\nWe’re kicking off our IFAC World Congress 2026 showcases with Matthew Marsh 🚀\n\n🧠 Talk: Embedding Linear Equality Constraints in Probabilistic Neural Networks for Dynamic Modelling\n\nModern data-driven models often have no knowledge of underlying physical laws, and in many cases provide deterministic estimates. In this work, we present a probabilistic modelling framework that embeds known physics as linear equalities directly into the model. This enables predictions that are guaranteed to be physically consistent, whilst providing calibrated uncertainty estimates and remaining robust under noisy data and constraints🤖📈\n\nMake sure to check out the paper here: https://lnkd.in/gdwHUAYw\n\n📅 Tuesday, 25 August\n 🕘 9:50 AM\n 📍 Room 313\n 🏷️ Hybrid and Physics-Informed Modeling for Chemical Processes\n✍ Authored with Benoit Chachuat and Ehecatl Antonio del Rio Chanona \n\nLooking forward to exploring various different applications within the control community! ✈️ 👋\n\n#IFAC2026 #MachineLearning #PhysicsInformedAI #ProbabilisticMachineLearning #ProcessSystemsEngineering #ImperialCollegeLondon Imperial College London Department of Chemical Engineering The Sargent Centre for Process Systems Engineering",
+    "link": "https://www.linkedin.com/posts/ifac2026-machinelearning-physicsinformedai-share-7497487389045600256-By6Y/",
+    "image": "images/news/7497487389045600256.jpg"
+  },
+  {
+    "id": "7497130888959438849",
+    "date": "2026-08-23",
+    "text": "📍 This week we’re attending the IFAC World Congress 2026 (Busan, Korea)! 🇰🇷\n\nAfter a very long journey (it actually took a couple of the group almost two weeks to get it here! 🤨 ✈️), we’re excited to be here and looking forward to showcasing some of our research we're presenting at the conference over the next few days.\n\nRepresenting the group this week are:\n 📅 Tuesday \n- Matthew Marsh (Hybrid and Physics-Informed Modeling for Chemical Processes, Room 313 - 9:50am)\n\n 📅 Wednesday \n- Daniel Crîstiu (Cognition for Human-Systems Collaboration: Models and Applications (C-HSC) IV, Room 217 - 11:30am)\n- Lavinia Ghilardi (Reinforcement Learning and Decision-Making for Process Systems, Room 313 - 10:50am)\n\n 📅 Friday \n- Max Bloor, who has also been nominated for the Applied Young Author Award! 🏆 (Machine Learning for Process Control & Optimization, Room 313 - 10:50am)\n\nWe will be profiling the talks this week - but due to the lack of significant ongoing sporting events the themes may not live up to our last promo... ⚽ 😔 \n\nIf you’re also here this week, we’d love to see you at our talks, make sure to say 안녕하세요 and we're always happy to talk research over a soju or two! 👋\n\n#IFAC2026 #ProcessSystemsEngineering #MachineLearning #ControlSystems #Research #ImperialCollegeLondon The Sargent Centre for Process Systems Engineering Department of Chemical Engineering Imperial College London",
+    "link": "https://www.linkedin.com/posts/ifac2026-processsystemsengineering-machinelearning-share-7497130888959438849-7gEx/",
+    "image": "images/news/7497130888959438849.jpg"
+  },
+  {
+    "id": "7496007605023109121",
+    "date": "2026-08-20",
+    "text": "Are you interested in an industry-focused PhD in #MachineLearning and advanced molecular #Thermodynamics at Imperial College London?\n\nWe are looking for a prospective PhD student interested in developing 𝐦𝐚𝐜𝐡𝐢𝐧𝐞 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐦𝐨𝐥𝐞𝐜𝐮𝐥𝐚𝐫 𝐭𝐡𝐞𝐫𝐦𝐨𝐝𝐲𝐧𝐚𝐦𝐢𝐜𝐬 𝐦𝐞𝐭𝐡𝐨𝐝𝐬 𝐰𝐢𝐭𝐡 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐢𝐧 𝐩𝐡𝐚𝐫𝐦𝐚𝐜𝐞𝐮𝐭𝐢𝐜𝐚𝐥 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐚𝐧𝐝 𝐝𝐞𝐬𝐢𝐠𝐧. The four-year studentship provides a stipend and covers Home-rate tuition fees.\n\nThe student will have the opportunity to work on topics including 𝐢𝐧𝐭𝐞𝐫𝐩𝐫𝐞𝐭𝐚𝐛𝐥𝐞 𝐀𝐈, 𝐬𝐜𝐢𝐞𝐧𝐭𝐢𝐟𝐢𝐜 𝐦𝐚𝐜𝐡𝐢𝐧𝐞 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠, 𝐦𝐨𝐥𝐞𝐜𝐮𝐥𝐚𝐫 𝐫𝐞𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧𝐬, 𝐭𝐨𝐩𝐨𝐥𝐨𝐠𝐢𝐜𝐚𝐥 𝐝𝐚𝐭𝐚 𝐚𝐧𝐚𝐥𝐲𝐬𝐢𝐬, 𝐩𝐡𝐲𝐬𝐢𝐜𝐚𝐥𝐥𝐲 𝐜𝐨𝐧𝐬𝐭𝐫𝐚𝐢𝐧𝐞𝐝 𝐦𝐨𝐝𝐞𝐥𝐥𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐏𝐲𝐭𝐡𝐨𝐧-𝐛𝐚𝐬𝐞𝐝 𝐬𝐜𝐢𝐞𝐧𝐭𝐢𝐟𝐢𝐜 𝐜𝐨𝐦𝐩𝐮𝐭𝐢𝐧𝐠.\n\nThe project is the close collaboration with Eli Lilly and Company. The student will work with Dr Salvador García Muñoz and colleagues at Eli Lilly, providing the opportunity to engage directly with industrial researchers and understand how new ML and modelling methodologies can be applied to real challenges in pharmaceutical research.\n\nThe project brings together a multidisciplinary academic and industrial team:\n\nEhecatl Antonio del Rio Chanona — machine learning, optimisation and AI\nClaire Adjiman — process systems engineering and molecular systems\nAmparo Galindo — molecular thermodynamics\nGeorge Jackson — statistical mechanics and molecular modelling\nSalvador García Muñoz — optimisation, control and AI in pharmaceutical development\n\nWe welcome applicants from 𝐜𝐡𝐞𝐦𝐢𝐜𝐚𝐥 𝐞𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠, 𝐦𝐚𝐭𝐞𝐫𝐢𝐚𝐥 𝐬𝐜𝐢𝐞𝐧𝐜𝐞, 𝐜𝐡𝐞𝐦𝐢𝐬𝐭𝐫𝐲, 𝐩𝐡𝐲𝐬𝐢𝐜𝐬, 𝐨𝐫 𝐫𝐞𝐥𝐚𝐭𝐞𝐝 𝐪𝐮𝐚𝐧𝐭𝐢𝐭𝐚𝐭𝐢𝐯𝐞 𝐛𝐚𝐜𝐤𝐠𝐫𝐨𝐮𝐧𝐝𝐬. Prior experience in machine learning or Python is useful, but strong quantitative skills and an interest in developing expertise in AI/ML, molecular modelling and thermodynamics are equally important.\n\n📍 Imperial College London\n🎓 Four-year funded PhD studentship\n💷 Stipend + Home-rate tuition fees\n🤝 Industrial partner: Eli Lilly and Company\n\n𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐚𝐧𝐝 𝐟𝐮𝐫𝐭𝐡𝐞𝐫 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 (𝐝𝐞𝐚𝐝𝐥𝐢𝐧𝐞 𝐒𝐞𝐩𝐭𝐞𝐦𝐛𝐞𝐫 𝟏𝟕):\nhttps://lnkd.in/epWknqXr\n\nPlease feel free to share with students or colleagues who may be interested.\n\n#MachineLearning #ScientificMachineLearning #AI #Thermodynamics #PhD #ChemicalEngineering",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7496007605023109121/"
+  },
+  {
+    "id": "7490092416641789952",
+    "date": "2026-08-06",
+    "text": "📚Our other visiting MSc student is Selma Ouali! 👋\n\nSelma is also visiting us from ETH Zurich, where she is completing her Master’s degree, having previously earned her Bachelor’s degree at EPFL.\n\nDuring her time with us, she’s been working with Francisco J. Navarro Brull on Bayesian optimisation for bioprocesses, developing machine learning approaches in collaboration with industry and benchmarking them against current industrial practices to evaluate their real-world potential. 🧫📊🤖\n\nSelma has been a great part of the group over the last few weeks!\n\n#BayesianOptimization #Bioprocesses #MachineLearning #ProcessSystemsEngineering #IndustryCollaboration #Research #ImperialCollegeLondon #ETHZurich #EPFL Imperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/bayesianoptimization-bioprocesses-machinelearning-share-7490092416641789952-L8me/",
+    "image": "images/news/7490092416641789952.jpg"
+  },
+  {
+    "id": "7490090418198626304",
+    "date": "2026-08-05",
+    "text": "📚 Our first visiting Masters' student is Vanessa Ménard! 👋\n\nVanessa is visiting us from ETH Zurich, where she recently completed her Master’s degree, having previously earned her Bachelor’s degree at EPFL.\n\nDuring her time with us, she’s been working alongside Laura Marie Helleckes and Paulina Quintanilla using Physics-Informed Gaussian Processes for model predictive control of bioprocesses 🧫📈🤖\n\nVanessa has been a great part of the group these past few months and wish her well for the future!\n\n#GaussianProcesses #ModelPredictiveControl #Bioprocesses #MachineLearning #ProcessSystemsEngineering #Research #ImperialCollegeLondon #ETHZurich Department of Chemical Engineering The Sargent Centre for Process Systems Engineering",
+    "link": "https://www.linkedin.com/posts/gaussianprocesses-modelpredictivecontrol-share-7490090418198626304-dfNo/",
+    "image": "images/news/7490090418198626304.jpg"
+  },
+  {
+    "id": "7490087886869057537",
+    "date": "2026-08-04",
+    "text": "📚 We've also had the pleasure of hosting Temitayo Adesina! 👋\n\nTemitayo is about to begin his third year here at Imperial and has been here this summer as part of the UROP programme.\n\nHe has been working alongside Matthew Marsh and Max Bloor, exploring  machine learning methods for control of process systems, experimenting with neural networks and reinforcement learning. Along the way, he’s also taken on the equally important challenge of predicting the winner of the World Cup. ⚽🤖\n\nIt’s great hosting Temitayo in the group over the summer. (He was also insistent on having his own football themed photo)\n\n#MachineLearning #ReinforcementLearning #ProcessSystemsEngineering #ChemicalEngineering #UROP #ImperialCollegeLondon Department of Chemical Engineering  Imperial College London  The Sargent Centre for Process Systems Engineering",
+    "link": "https://www.linkedin.com/posts/machinelearning-reinforcementlearning-processsystemsengineering-share-7490087886869057537-bT3a/",
+    "image": "images/news/7490087886869057537.jpg"
+  },
+  {
+    "id": "7490084526518583296",
+    "date": "2026-08-03",
+    "text": "📚 We've enjoyed having some lovely Masters' and UROP students working with us over the summer. As their time in our group begins to draw to a close (for now...), we'd love to share some of the interesting work they have spent their summer doing...\n\nFirst up is Eleni Psaromatis! 👋\n\nEleni is pursuing an MSc in Digital Chemistry here at Imperial, she previously studied her BSc at University of Patras. She has been working with the elusive Samuel Stricker and Laura Marie Helleckes, on Bayesian optimisation with generative models, for drug discovery. This follows some of Sam's previous work on Pareto-front guided sampling 🧪🤖\n\nIt has been a pleasure to have had Eleni with us this summer (except when I was trying to make this post and she kept changing the lighting on the photo) and look forward to sharing updates on her research in the coming weeks.\n\n#DrugDiscovery #BayesianOptimization #GenerativeAI #MachineLearning #DigitalChemistry #Research #ImperialCollegeLondon Department of Chemical Engineering Imperial College London",
+    "link": "https://www.linkedin.com/posts/drugdiscovery-bayesianoptimization-generativeai-share-7490084526518583296-YGa9/",
+    "image": "images/news/7490084526518583296.jpg"
+  },
+  {
+    "id": "7479929645396635648",
+    "date": "2026-07-06",
+    "text": "And for those disappointed by our lack of World Cup themed promotion of Fred's work this week, unfortunately our hands have been tied by 'content policies'\n\nWe tried our best with some classical methods though...\n\nhttps://lnkd.in/erwmvgGj\n\nMake sure to check out the paper below!!\nhttps://lnkd.in/erUT5U2u\n\n#ICML The Sargent Centre for Process Systems Engineering Imperial College London Department of Chemical Engineering \n[ICML] Int'l Conference on Machine Learning #AI4Science #AI4Chemistry",
+    "link": "https://www.linkedin.com/posts/icml-ai4science-ai4chemistry-ugcPost-7479929645396635648-S1fQ/",
+    "image": "images/news/7479929645396635648.jpg"
+  },
+  {
+    "id": "7479928339558797312",
+    "date": "2026-07-06",
+    "text": "🚨🚨News coming out from ICML 👇 \n\nIf you are at [ICML] Int'l Conference on Machine Learning in Seoul this week, make sure to check out Fred's oral presentation on Pareto-Optimal Synthesis planning tomorrow!",
+    "link": "https://www.linkedin.com/posts/news-coming-out-from-icml-if-you-share-7479928339558797312-EAEr/",
+    "image": "images/news/7479928339558797312.jpg"
+  },
+  {
+    "id": "7474748788922994688",
+    "date": "2026-06-22",
+    "text": "🚨 LAST MINUTE CONFIRMATION 🚨\nJoining the travelling party is our old-fashioned hold-up number 9️⃣💪⚽\n🇩🇪 Mathias Neufang has been handed the call-up and will be making the trip to Sheffield for #ESCAPE36 🏟️🏆\n\nMathias will be presenting his work on:\n📄 Multi-Fidelity Bayesian Optimization of Quantum Chemistry Models for Reaction Solvent Design\n📅 Tuesday 23 June\n ⏰ Presentation Time: 12:10\n 📍 Lecture Theatre 6\n 🎯 Session: 10:50–12:30\n\n🧪⚛️📈🚀\n\nA physical presence up top, strong in the air; but still has good feet for a big man.\n \n🎙️ In his pre-match press conference, the gaffer Antonio, also had a final few words to say…\n👀⬇️\n\nMake sure to come and check out our talks and posters! 🔥 💯 🥶 \n\n#ESCAPE36 #ESCAPE2026 #ChemicalEngineering #ProcessSystemsEngineering #BayesianOptimisation #QuantumChemistry #MachineLearning #ImperialCollegeLondon #ConferenceSeason #SquadAnnouncement #RoadToSheffield #UTG Imperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/escape36-escape36-escape2026-ugcPost-7474748788922994688-TpBt/",
+    "image": "images/news/7474748788922994688.jpg"
+  },
+  {
+    "id": "7474416779918835712",
+    "date": "2026-06-21",
+    "text": "🚨 TEAM UPDATE 🚨\n\n🧠🎖️ Experience within the ranks. The boss has confirmed that group stalwarts Emma Pajak and Max Bloor return for their third ESCAPE appearance, bringing their invaluable experience of being in and around the camp at major conferences. 💯⚽🏆\n\n🤖 Emma will be presenting:\n📄 PFD-to-Flowsheet: Automating Flowsheet Generation via a Multi-Agent LLM Pipeline\n📅 Tuesday 23 June\n ⏰ 10:50\n 📍 Lecture Theatre 3\n 🎯 Concepts, Methods & Tools [3]\n🚀🧠🔬\n\n⚡ Max will be presenting:\n📄 Addressing Terminal Constraints in Reinforcement Learning-Based Demand Response Scheduling\n📍 Poster 103\n📅 Monday\n ⏰ 12:30–13:30\n 📌 Diamond Building, First Floor\n 🎯 Concepts, Methods & Tools Poster Session\n\n🤖⚡📈\n\n#ESCAPE36 #ESCAPE2026 #ProcessSystemsEngineering #ChemicalEngineering #ArtificialIntelligence #LargeLanguageModels #ReinforcementLearning #PosterSession #ImperialCollegeLondon\nThe Sargent Centre for Process Systems Engineering Imperial College London Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/escape36-escape2026-processsystemsengineering-ugcPost-7474416779918835712-5b9i/",
+    "image": "images/news/7474416779918835712.jpg"
+  },
+  {
+    "id": "7474195957937676288",
+    "date": "2026-06-20",
+    "text": "🚨 TEAM UPDATE 🚨\n\nThe boss has confirmed that highly-rated youngsters Matthew Marsh and Samuel Stricker will be making the trip to Sheffield for #ESCAPE36! ⚽🏆\n\n🎓 After progressing through the academy, Matthew earns his conference debut and will be presenting:\n\n📄 Enforcing Hard Linear Physical Constraints in Probabilistic Neural Network Models\n\n⏰ 11:50\n 📅 Tuesday 24 June\n 📍 Lecture Theatre 7\n 🎯 Modelling & Simulation [10]\n 🕙 Session: 10:50–12:30\n\n💯📈🤖\n\n🇨🇭 Following an impressive start to his career in Switzerland, Sam also receives the call-up and will be presenting:\n\n📄 Pareto Front Guided Sampling for Efficient Bioprocess Experimentation\n\n⏰ 15:40\n 📅 Monday 22 June\n 📍 Pharmaceutical and Biotechnological Systems [1]\n 🕒 Session: 15:00–16:00\n\n🧪📊🚀\n\nTwo conference debuts. Two exciting young researchers. One big week in Sheffield. 🏟️🔥\n👏⚽💯\n\n#ESCAPE36 #ESCAPE2026 #ConferenceDebut #PosterSession #ProcessSystemsEngineering #ChemicalEngineering #MachineLearning #Bioprocessing #ImperialCollegeLondon Imperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/escape36-escape36-escape2026-ugcPost-7474195957937676288-mzIn/",
+    "image": "images/news/7474195957937676288.jpg"
+  },
+  {
+    "id": "7474176043528982528",
+    "date": "2026-06-20",
+    "text": "🚨 TEAM NEWS 🚨\nIntroducing our first two speakers for #ESCAPE36 this week…\n👊 The gaffer has confirmed two Lauras are in the starting XI! ⚽🔥\n\n🧪 Laura Ellington will be presenting:\n📄 A Low-Cost Large Language Model Workflow for Porous Liquid Literature Extraction\n💯🤖📚\n\n🧬 Laura Marie Helleckes will be presenting:\n📄 Efficient Bioprocess Development Across Scales Using Multi-Fidelity Batch Bayesian Optimisation\n📈🧫🚀\n\n📍 Poster Session: Concepts, Methods & Tools\n🗓️ Monday\n ⏰ 12:30–13:30\n 📌 Diamond Building, First Floor\n\nLooking forward to the electric atmosphere in the poster session 🙌⚽\n\n#ESCAPE36 #ESCAPE2026 #PosterSession #ProcessSystemsEngineering #ChemicalEngineering #MachineLearning #Bioprocessing #BayesianOptimisation #LargeLanguageModels #ImperialCollegeLondon\nImperial College London The Sargent Centre for Process Systems Engineering Department of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/escape36-escape36-escape2026-ugcPost-7474176043528982528-WGyr/",
+    "image": "images/news/7474176043528982528.jpg"
+  },
+  {
+    "id": "7473827589510496256",
+    "date": "2026-06-19",
+    "text": "Introducing your #OptiMLPSE 📈  lineup to take on #ESCAPE in Sheffield this week! 👊 \n\nWe will be featuring all our talks and posters over the weekend; make sure to stay tuned 👇 🔥 💯",
+    "link": "https://www.linkedin.com/posts/optimlpse-escape-share-7473827589510496256-Fb1_/",
+    "image": "images/news/7473827589510496256.jpg"
+  },
+  {
+    "id": "7467561260050513920",
+    "date": "2026-06-02",
+    "text": "Our research group recently got together for a group BBQ (although no grilling was done in the department!), and it was a nice moment to switch off from the usual day to day of working hard on our research, and to do something together than wasn't just going to the union!\n\nWe're looking forward to a busy conference season, where members of the group will be jetting off all around the world from South Korea to South Yorkshire, so excited to share some of our research in the coming weeks. \n\n🔥 💯\n\nThank you to Department of Chemical Engineering for letting us use the DCR for this!",
+    "link": "https://www.linkedin.com/posts/our-research-group-recently-got-together-share-7467561260050513920-JkGV/",
+    "image": "images/news/7467561260050513920.jpg"
+  },
+  {
+    "id": "7462482330616713216",
+    "date": "2026-05-19",
+    "text": "Happy to share that our latest work on computer-aided synthesis planning (\"From Feasible to Practical: Pareto-Optimal Synthesis Planning\") got accepted (spotlight) at [ICML] Int'l Conference on Machine Learning 🇰🇷.\n\n📌 In molecular discovery, two critical stages often get treated separately: discovering synthesis routes for a target molecule (retrosynthesis) and optimizing those routes for the practical objectives that actually matter in industry. In this work, we bring them together. By directly embedding multiple real-life objectives into the search, we uncover Pareto optimal synthesis routes that capture the trade-offs between objectives; finding routes overlooked by traditional algorithms while also producing more diverse solutions.\n\nSmall technical TL;DR: we achieve this via weight-scalarized A* planning and BO-informed weight-sampling. We also provide a theoretical guarantee under which our algorithm is certified to return the complete Pareto front for the search space. \n\nThe paper and code repo are below. You can run the algorithm yourself and define your own objectives. Contributions are welcome; there's definitely still a lot more exciting research to do!\n\n📄 https://lnkd.in/eeuNJt6E\n💻 https://lnkd.in/eUUdpjBS\n\nReally grateful to my supervisors Ehecatl Antonio del Rio Chanona and Dongda Zhang for the continued support throughout the project. I'd also like to thank Alex Ganose for the discussion during my PhD milestone assessment last summer.\n\n#ICML2026 #ML4Chemistry #Retrosynthesis #CASP",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7462482330616713216/"
+  },
+  {
+    "id": "7462482425802289152",
+    "date": "2026-05-19",
+    "text": "I was glad to be at the [AISTATS] International Conference on Artificial Intelligence and Statistics in Tangier a couple of weeks ago, which was my first conference in my PhD.\n\nI enjoyed presenting our work, \"Learning with Embedded Linear Equality Constraints via Variational Bayesian Inference\" at the OPTIMAL workshop.\n\nOften, within real-world systems, we have physical domain knowledge that we want our models to satisfy. However, due to noise, often within the data, constraints do not hold exactly. We explore how to handle this through probabilistic projections that enforce constraints at all times, whilst both quantifying predictive uncertainty and retaining flexibility in the learned dynamics.\n\nIt was a great experience meeting different researchers within the community, and hearing about lots of exciting work in the area.\n\nThanks to my supervisors, Ehecatl Antonio del Rio Chanona and Benoit Chachuat for their guidance in putting this work together, and if you are interested, check out our preprint:\n\nhttps://lnkd.in/efv2sdcs",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7462482425802289152/"
+  },
+  {
+    "id": "7451989785138704384",
+    "date": "2026-04-20",
+    "text": "👇🏻",
+    "link": "https://www.linkedin.com/posts/share-7451989785138704384-lRXi/",
+    "image": "images/news/7451989785138704384.jpg"
+  },
+  {
+    "id": "7444321725128806400",
+    "date": "2026-03-30",
+    "text": "Some nice news coming from our group...\n\n🏆 Huge congratulations to Zhengang on being awarded the 2025 Dudley Newitt Prize for Theoretical/Computational Excellence at Imperial College London! For his thesis on \"Data-driven Distributionally Robust Model Predictive Control\"\n\nThis prize is awarded to a PhD student in the Department of Chemical Engineering for “a thesis of exceptional merit, with special recognition for theoretical/computational excellence and presentation”.\n\nIf you are interested, some of the work Zhengang produced during his PhD include:\n\n📄 Data-driven Koopman MPC using Mixed Stochastic-Deterministic Tubes\nhttps://lnkd.in/eU8tNYmW\n\n📄 Tube-based distributionally robust MPC for nonlinear process systems via linearization\nhttps://lnkd.in/eu6zVkkr\n\n📄 Data-driven distributionally robust MPC using the Wasserstein metric\nhttps://lnkd.in/eCSEmqzu\n\n📄 An efficient data-driven distributionally robust MPC leveraging linear programming\nhttps://lnkd.in/eS2_-MX3\n\nIt has been an absolute privilege to have Zhengang at OptiML PSE!🎓\n\n#ChemicalEngineering #ImperialCollege #MachineLearning #ModelPredictiveControl \nImperial College London \nDepartment of Chemical Engineering",
+    "link": "https://www.linkedin.com/posts/chemicalengineering-imperialcollege-machinelearning-share-7444321725128806400-U7qd/",
+    "image": "images/news/7444321725128806400.jpg"
+  },
+  {
+    "id": "7439976849226616832",
+    "date": "2026-03-18",
+    "text": "I had the opportunity to speak at the #BioprocessingSummitEurope in Barcelona last week 🎤\n\nI presented our work on #HumanInTheLoop #BayesianOptimization to help scientists make decisions when designing experiments 👩🏻‍🔬\n\nI also heard many insightful talks from academia and industry on modelling strategies to accelerate process development 🚀 Particularly valuable were the discussions on the current state of modelling, the diversity of practical challenges, and the role of AI in highly regulated environments such as the pharmaceutical industry 💊\n\nThanks to Kent Simmons for the invitation and to my collaborators Gonzalo Guillén Gosálbez, Alessandro Butte, Claus Wirnsperger, Lucas Francisco dos Santos, Ehecatl Antonio del Rio Chanona, and Mehmet Mercangöz for the guidance and support. 🙏\n\n#ExperimentalDesign #ProcessOptimization #Biotechnology #Bioprocessing #CHIBioprocessingSummit",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7439976849226616832",
+    "image": "images/news/7439976849226616832.jpg"
+  },
+  {
+    "id": "7439298508060381184",
+    "date": "2026-03-16",
+    "text": "🎓 𝐄𝐱𝐜𝐢𝐭𝐢𝐧𝐠 𝐏𝐡𝐃 𝐨𝐩𝐩𝐨𝐫𝐭𝐮𝐧𝐢𝐭𝐲 𝐢𝐧 𝐚𝐩𝐩𝐥𝐲𝐢𝐧𝐠 𝐦𝐚𝐜𝐡𝐢𝐧𝐞 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐭𝐨 𝐚𝐜𝐜𝐞𝐥𝐞𝐫𝐚𝐭𝐞 𝐛𝐢𝐨𝐩𝐫𝐨𝐜𝐞𝐬𝐬 𝐬𝐜𝐚𝐥𝐞-𝐮𝐩!\n\nIf you're interested in hybrid process models and data-driven optimisation for scale-up, consider applying for this PhD project focused on optimising lactone production across scales, together with BASF.\n\nThe project is jointly supervised by Maria Papathanasiou, David Bryant, Leonardo Rios-Solis, Karen Polizzi, Averina Nicolae and myself.\nPlease share within your network with anyone who might be interested in this opportunity.\n\nDetails on how to apply 👇",
+    "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7439298508060381184"
+  },
+  {
+    "id": "7437123479394533377",
+    "date": "2026-03-10",
+    "text": "Welcome to OptiML Parastoo!!",
+    "link": "https://www.linkedin.com/posts/welcome-to-optiml-parastoo-ugcPost-7437123479394533377-jRBW/",
+    "image": "images/news/7437123479394533377.jpg"
+  },
+  {
+    "id": "7434885628191801345",
+    "date": "2026-03-04",
+    "text": "Looking forward to speaking at the Bioprocessing Summit Europe next week in Barcelona. \n\n🚀 I’ll present our work on #BayesianOptimization based experimental design for bioprocess development, a #HumanInTheLoop method aimed at shifting decision-making from model hyperparameters to interpretable process variables.\n👩‍🔬 We want to enable biotechnology teams to evaluate trade-offs directly within the design space they understand, rather than in abstract model space.\n\n🧠 Looking forward to exchanging ideas on transparent, data-driven process optimization!\n\n#BioprocessingSummitEurope #ExperimentalDesign #ParetoFront #ProcessOptimization #Biotechnology #DataHow AG",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7434885628191801345",
+    "image": "images/news/7434885628191801345.jpg"
+  },
+  {
+    "id": "7434160796877803520",
+    "date": "2026-03-02",
+    "text": "I’ve just wrapped up my first week with the  OptiML PSE Group at Imperial College London, and it’s been an inspiring start ✨️\n\nThis week, I learned:\n🧪 How we can use Computer-aided synthesis planning to identify Pareto-optimal synthesis routes\n💻 How to tackle complex challenges from bioprocess engineering to solvent selection with Bayesian Optimization\n\nSeeing these methods in action really highlighted how closely they connect to my own research on biorefinery process optimization and molecular design. There’s so much exciting overlap, and I’m very much looking forward to a great collaboration ahead.\n\nThe group is a truly stimulating and welcoming environment — I absolutely love being around such curious, open, and driven people. Thank you all for the warm hospitality!\n\nA special thank you to Ehecatl Antonio del Rio Chanona for doing an outstanding job in creating and nurturing such a vibrant research culture. 🤗\n\nSuper grateful to have the Add-On Fellowship of the Joachim Herz Stiftung for funding this fruitful exchange.\n\nExcited for what’s to come!",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7434160796877803520",
+    "image": "images/news/7434160796877803520.jpg"
+  },
+  {
+    "id": "7434223396873416704",
+    "date": "2026-03-02",
+    "text": "Last week, I had a great time teaching at the African Institute for Mathematical Sciences (AIMS) in Cape Town. Together with a group of fellows from the I-X Centre for AI in Science at Imperial, we spent the week teaching Bayesian inference for the AI in Science Master’s programme 🎓\n\nHuge thanks to all the students! I had a fantastic time teaching and working with you, thanks to your curiosity, engagement and hard work. Also really appreciated getting to spend time teaching and exploring Cape Town with the other fellows. ✈️",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7434223396873416704/",
+    "image": "images/news/7434223396873416704.jpg"
+  },
+  {
+    "id": "7432023719553699840",
+    "date": "2026-02-24",
+    "text": "In our group meetings this month, we ran a tutorial on Bayesian Optimization (BO), discussing its methodology for efficiently navigating complex and resource-intensive design spaces.  Following the theoretical overview, we held an internal hackathon to apply these concepts practically 💻. The objective was to apply BO to a simulated, process-scale bioprocess. Specifically, the task involved optimizing conditions for cell cultures to maximize the yield of a target therapeutic protein 🧬🧪.  To wrap up a productive day of coding, we headed out for a group dinner to celebrate. 🍽️✨\n\n#BayesianOptimization #Bioprocessing #MachineLearning #Optimization",
+    "link": "https://www.linkedin.com/posts/bayesianoptimization-bioprocessing-machinelearning-ugcPost-7432023719553699840-mnGd/",
+    "image": "images/news/7432023719553699840.jpg"
+  },
+  {
+    "id": "7426976547712200704",
+    "date": "2026-02-10",
+    "text": "👇 Check out the new paper drop 🥶 🔥",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7426976547712200704",
+    "image": "images/news/7426976547712200704.jpg"
+  },
+  {
+    "id": "7407029793306787840",
+    "date": "2025-12-17",
+    "text": "🚨🔥💯 Check out the exciting work recently published by our very own Laura 👇🏻",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7407029793306787840",
+    "image": "images/news/7407029793306787840.jpg"
+  },
+  {
+    "id": "7399767932869967873",
+    "date": "2025-11-27",
+    "text": "Excited to share our latest work, “MolPrice: assessing synthetic accessibility of molecules based on market value”, recently published in the Journal of Chemoinformatics and led by Friedrich Hastedt.\n\nIn this study, we introduce a machine learning framework that predicts the market price of organic molecules. Using self-supervised contrastive learning, we show that predicted price serves as an effective proxy for synthetic accessibility (SA), a key consideration in molecular discovery workflows. With NumPy-accelerated batching, MolPrice achieves prediction times below 0.1 ms per molecule, making it highly suitable for large-scale screening.\n\nWe further demonstrate how MolPrice can streamline virtual screening workflows by prioritizing molecules that are either easier to synthesize or directly purchasable from suppliers such as MolPort or Mcule. When a high-potential molecule is already available on the market, chemists can bypass time-consuming synthesis steps and proceed directly to experimental validation.\n\nIf you work in the field of molecular discovery and would like to explore MolPrice, the paper and the open-source code are available below: \n\n- Paper 📝: https://lnkd.in/e7m4hjzb\n\n- Code 💻: https://lnkd.in/etarHCd9\n\n\nThis work was carried out in collaboration with Klaus Hellgardt, Sophia Yaliraki and Dongda Zhang\n\n#MachineLearning #Chemoinformatics #DrugDiscovery #VirtualScreening #Research",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7399767932869967873",
+    "image": "images/news/7399767932869967873.jpg"
+  },
+  {
+    "id": "7396479509216075776",
+    "date": "2025-11-18",
+    "text": "Excited to share our latest work on “Data-Driven Koopman MPC using Mixed Stochastic–Deterministic Tubes”🚀 \n\nThis study, led by Zhengang Zhong, presents a data-driven stochastic Model Predictive Control (MPC) framework that combines Koopman operator theory with distributionally robust optimization (DRO).\n\nThe work demonstrates how data-driven control methods can ensure recursive feasibility, stability, and probabilistic robustness while outperforming existing robust MPC formulations. https://lnkd.in/eii3FzVE 📊\n\nThis work was in collaboration with Panagiotis Petsagkourakis, PhD 🎉\n\n\n#KoopmanOperator #ModelPredictiveControl #MachineLearning #ProcessSystemsEngineering #DataDrivenControl #Research #ImperialCollegeLondon\nThe Sargent Centre for Process Systems Engineering \nDepartment of Chemical Engineering",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7396479509216075776"
+  },
+  {
+    "id": "7390721772255461376",
+    "date": "2025-11-02",
+    "text": "Excited for a week of thoughtful conversations and fresh perspectives 💬✨",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7390721772255461376"
+  },
+  {
+    "id": "7390364562975297537",
+    "date": "2025-11-01",
+    "text": "🎉 AIChE 2025 Countdown | 1 Day to Go! ⏳\n\nThere we land! 💯 As the #AIChE2025 Annual Meeting in Boston approaches, we’re excited to feature the last spotlight in our Imperial College London Showcase Series — 🧪 Mathias Neufang, a PhD student working on smart solvent design with Statistical Machine Learning ⚙️💡\n\nMathias will be presenting his work on multi-fidelity Bayesian optimization, demonstrating how computational methods can accelerate the discovery of greener, more effective solvents 🌱🔬\n\n🎯 Multi-Fidelity Bayesian Optimization for Computer Aided Solvent Design\n📅 Thursday, November 6 | 9:24 – 9:36 AM\n‼️ Machine Learning for Soft and Hard Materials I: Soft Matter\n📍 Room 210, Hynes Convention Center\n\nDepartment of Chemical Engineering 😎 Imperial College London 💸 The Sargent Centre for Process Systems Engineering 🥶\n#AIChEAnnual #ImperialCollegeLondon #ChemicalEngineering #Sustainability #BayesianOptimization #SolventDesign #DataDrivenScience",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7390364562975297537",
+    "image": "images/news/7390364562975297537.jpg"
+  },
+  {
+    "id": "7390058731151208449",
+    "date": "2025-10-31",
+    "text": "🎉 AIChE 2025 Countdown | 2 Days to Go! ⏳\n\nWe’re getting even closer to the #AIChE2025 Annual Meeting in Boston — and our latest spotlight is on 🌿 Dr. Daniel Crîstiu, a Postdoctoral Researcher in our group working on sustainable supply chain optimization 🌎⚙️\n\nDaniel’s talk explores how biogenic CO₂ can be transformed into valuable chemicals, advancing circular, low-carbon pathways for industry 🔁✨\n\n🎯 Flue2Chem: Designing Sustainable CCU Supply Chains for Biogenic CO₂-to-Alcohols-to-Olefins\n📅 Wednesday, November 5 | 9:12 – 9:30 AM\n‼️ 511 – Systematic Approaches to Sustainable Fuel and Chemical Production\n📍 Provincetown Room, Fourth Floor, Marriott Boston Copley\n\nDepartment of Chemical Engineering 😎 Imperial College London 💸 The Sargent Centre for Process Systems Engineering 🥶\n#AIChEAnnual #ImperialCollegeLondon #ChemicalEngineering #Sustainability #CCU #CircularEconomy #ProcessSystemsEngineering",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7390058731151208449",
+    "image": "images/news/7390058731151208449.jpg"
+  },
+  {
+    "id": "7389998346255642625",
+    "date": "2025-10-31",
+    "text": "🎉 AIChE 2025 Countdown | 2 Days to Go! ⏳\n\nNext up in our #AIChE2025 Showcase Series is ⚗️ Dr. Laura Marie Helleckes, an Eric and Wendy Schmidt AI fellow, working alongside our group and developing data-driven methods to make bioprocess development smarter and faster 🧬💡\n\nLaura will be presenting two talks at this year’s meeting — both exploring how Bayesian optimization can accelerate experimental design across scales 🔍👇\n\n🎯 Efficient Experimental Design for Bioprocesses across Scales Using Bayesian Optimization\n📅 Wednesday, November 5 | 1:06 – 1:24 PM\n‼️ Bioprocess Engineering, Experimental and Computational Design, and Scale-up\n📍 Room 305, Hynes Convention Centre\n\n🎯 Efficient Bioprocess Development across Scales Using Multi-Fidelity Batch Bayesian Optimization\n📅 Wednesday, November 5 | 2:15 – 2:36 PM\n‼️ 10E – Data-Driven Optimization\n📍 Room 108, Plaza Level, Hynes Convention Centre\n\n🎯 Latent Space-Based Bayesian Optimization for Efficient Screening of Enzyme Mutants in Biocatalysis\n📅 Tuesday, November 4, 2025 | 3:30 PM - 5:00 PM \n‼️10C: Interactive Session: Systems and Process Operations \n📍 Hynes Convention Center, Exhibit Hall C\n\nDepartment of Chemical Engineering 😎 Imperial College London 💸 The Sargent Centre for Process Systems Engineering 🥶\n#AIChEAnnual #ImperialCollegeLondon #ChemicalEngineering #MachineLearning #BayesianOptimization #BioprocessEngineering #DataDrivenScience",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7389998346255642625",
+    "image": "images/news/7389998346255642625.jpg"
+  },
+  {
+    "id": "7389692581548408834",
+    "date": "2025-10-30",
+    "text": "🎉 AIChE 2025 Countdown | 3 Days to Go! ⏳\n\nThe man, the myth, the legend 💪 Continuing our AIChE 2025 Showcase Series, we’re featuring 🤖 RL Max Bloor, a third year PhD student in our group working at the interface of process control and reinforcement learning ⚙️🧠\n\nMax’s talk introduces Control-Informed Reinforcement Learning — making AI-driven systems not just smarter, but more stable and interpretable 🔄🔥 in collaboration with Calvin Tsay 🚀 & Max Mowbray 👾\n\n🎯 Control-Informed Reinforcement Learning\n📅 Tuesday, November 4 | 8:18 AM\n‼️ AI/ML and Data-Driven Modeling for Control I\n📍 Room 110, Plaza Level, Hynes Convention Centre\n\n🎯 Gaussian Process Q-Learning for Finite-Horizon Markov Decision Processes\n‼️Data and Information Systems\n📅 Tuesday, November 4, 2025 | 3:30 PM ET - 5:00 PM ET\n📍Exhibit Hall C\n\nDepartment of Chemical Engineering 😎 Imperial College London 💸 The Sargent Centre for Process Systems Engineering 🥶 @Computational optimizatio\n#AIChEAnnual #ImperialCollegeLondon #ChemicalEngineering #MachineLearning #ReinforcementLearning #ControlSystems #ProcessAI",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7389692581548408834",
+    "image": "images/news/7389692581548408834.jpg"
+  },
+  {
+    "id": "7389632257071685632",
+    "date": "2025-10-30",
+    "text": "🎉 AIChE 2025 Countdown | 3 Days to Go! ⏳\n\nHere we go! 💯 Next up in our #AIChE2025 Showcase Series is 💡 Emma Pajak, a second-year PhD student in our group exploring how LLMs models can unlock new possibilities in sustainable chemical systems ⚙️🌿\n\nEmma will be presenting her work on CarAT, a framework that uses chemistry language models to trace carbon atoms through complex chemical value chains — helping pave the way toward more transparent and sustainable processes ♻️👇 Work in collaboration with BASF ; Olga Walz Steffen Klosterhalfen David Walz 👌🏻 \n\n🎯 CarAT: A Framework for Carbon Atom Tracing in Chemical Value Chains via Chemistry Language Models\n📅 Monday, November 3 | 3:30–6:00 PM\n‼️ Sustainable Engineering Forum – Advanced Approaches for Sustainable Energy Systems Planning\n📍Simmons Room, Third Floor, Marriott Copley Place\n\n🧠 Multi-Agent LLMs for Sustainable Operational Decision Making\n📅 Tuesday, November 4 | 3:30–5:00 PM (ET)\n‼️ 10E – Interactive Session: Data and Information Systems\n📍 Exhibit Hall C, Second Level, Hynes Convention Center\n\nDepartment of Chemical Engineering 😎 Imperial College London 💸 The Sargent Centre for Process Systems Engineering 🥶\n#AIChEAnnual #ImperialCollegeLondon #ChemicalEngineering #Sustainability #AIinChemistry #LanguageModels #CarbonTracking",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7389632257071685632",
+    "image": "images/news/7389632257071685632.jpg"
+  },
+  {
+    "id": "7389337738547990528",
+    "date": "2025-10-29",
+    "text": "🎉 AIChE 2025 Countdown | 4 Days to Go! ⏳\n\nNext up in our #AIChE2025 Showcase Series is 🧪 Friedrich Hastedt, another Final Year PhD student in our group ⚙️💡\n\nFred will be showcasing some of his work exploring how Machine Learning can accelerate molecular discovery and assess synthetic feasibility 🔍👇\n\n🎯 Steering Retrosynthetic Planning Towards Chemical Engineering – A Multi-Objective Approach\n📅 Monday, November 3 | 8:15–8:30 AM\n‼️ 58 - Automated Molecular and Materials Discovery: Integrating Machine Learning, Simulation, and Experiment\n📍 Room 210, Second Level, Hynes Convention Center\n\n\n📊 Poster: Assessing Molecular Synthetic Accessibility with Economic Indicators\n📅 Tuesday, November 4 | 3:30–5:00 PM\n‼️ 390 - 10A: Interactive Session: Systems and Process Design\n📍Exhibit Hall C (Second Level, Hynes Convention Center)\n\nDepartment of Chemical Engineering 😎 Imperial College London 💸 The Sargent Centre for Process Systems Engineering 🥶\n#AIChEAnnual #ImperialCollegeLondon #ChemicalEngineering #MachineLearning #Retrosynthesis #MolecularDesign",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7389337738547990528",
+    "image": "images/news/7389337738547990528.jpg"
+  },
+  {
+    "id": "7389320163336015872",
+    "date": "2025-10-29",
+    "text": "🎉 AIChE 2025 Countdown | 4 Days to Go! ⏳\n\nWe’re really excited for the AIChE Annual Meeting in Boston — just 4 days to go! 🇺🇸\n\nOver the next few days, we’ll be showcasing the fantastic researchers in our group who will be presenting work at #AIChE2025.\n\nStay tuned as we kick off our AIChE 2025 Showcase Series — starting with 🔄 Niki Kotecha 🐐\n\nNiki is a final year PhD student, and will be showcasing her work on RL within inventory management and Supply Chains 🔥 :\n\n🤝 Multi-Agent Reinforcement Learning and Graph Neural Networks for Inventory Management\n📅 Monday, November 3 | 12:30–12:51 PM\n‼️ 10C: Operations Under Uncertainty\n📍 Room 108, Plaza Level, Hynes Convention Center\n\n🧠 Poster: MORSE – Multi-Objective Reinforcement Learning via Strategy Evolution for Supply Chain Optimization\n📅 Tuesday, November 4 | 3:30–5:00 PM\n📍 Exhibit Hall C, Second Level, Hynes Convention Center\n\nDepartment of Chemical Engineering 😎 Imperial College London 💸 The Sargent Centre for Process Systems Engineering 🥶\n#AIChEAnnual #ImperialCollegeLondon #ChemicalEngineering  #Sustainability #MachineLearning #ReinforcementLearning",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7389320163336015872",
+    "image": "images/news/7389320163336015872.jpg"
+  },
+  {
+    "id": "7382332494945357824",
+    "date": "2025-10-10",
+    "text": "Last but not least, we welcome Alexander Nies to the OptiML PSE group! He has recently completed his MEng degree in Chemical Engineering at Imperial College London. His PhD will focus on creating Next-Generation Flowsheeting Tools for Green Process Development co-supervised by Benoit Chachuat.",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7382332494945357824",
+    "image": "images/news/7382332494945357824.jpg"
+  },
+  {
+    "id": "7381996373786755072",
+    "date": "2025-10-09",
+    "text": "Welcome Laura Ellington to the OptiML PSE group! She will start her PhD focusing on Decarbonising Chemical Value Chains using AI agents which is co-supervised by Benoit Chachuat. She has previously completed her MSci degree in Chemistry at Imperial College London.",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7381996373786755072",
+    "image": "images/news/7381996373786755072.jpg"
+  },
+  {
+    "id": "7381768654457294849",
+    "date": "2025-10-08",
+    "text": "Pleased to welcome Ammar Ali to OptiML PSE!\nHe recently completed his MEng degree in chemical engineering at The University of Manchester and is now beginning his PhD with us and Mehmet Mercangöz. His research will focus on Multi-Agent LLMs for Chemical Lab Management Assistance.",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7381768654457294849",
+    "image": "images/news/7381768654457294849.jpg"
+  },
+  {
+    "id": "7379248613975150592",
+    "date": "2025-10-01",
+    "text": "Excited to welcome Samuel Stricker to OptiML PSE!\nSamuel has previously completed his BSc and MSc in Chemistry at ETH Zürich and is now starting his PhD with us (co-supervised by Mehmet Mercangöz). He'll be working on integrating AI and digital twins for manufacturing and lab operations.",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7379248613975150592",
+    "image": "images/news/7379248613975150592.jpg"
+  },
+  {
+    "id": "7361330361424826368",
+    "date": "2025-08-13",
+    "text": "Great opportunity to join our group! 👇",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7361330361424826368"
+  },
+  {
+    "id": "7359362528818184193",
+    "date": "2025-08-07",
+    "text": "An awesome introduction to Large Language Models (LLMs) and applications to chemical engineering by Ehecatl Antonio del Rio Chanona of Imperial College London at the PSE in Mexico workshop\n\nI am learning a lot!\n\n#chemicalengineering #systemsengineering",
+    "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7359362528818184193",
+    "image": "images/news/7359362528818184193.jpg"
+  }
+]

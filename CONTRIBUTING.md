@@ -89,3 +89,21 @@ Once it's green ✅, a website admin will merge it.
 
 If you have [Hugo](https://gohugo.io/installation/) installed, you can run
 `hugo server` in the repository and open <http://localhost:1313/people/>.
+
+# Adding news
+
+The News page lists items from `data/news.json`, newest first, with the photo
+on the left and the text on the right. Photos are saved in
+`static/images/news/` so they keep working after LinkedIn's image links expire.
+
+To add a LinkedIn post, copy its link (the post's "…" menu → "Copy link to
+post") and run:
+
+```sh
+python3 scripts/add_news.py "https://www.linkedin.com/feed/update/urn:li:activity:..."
+```
+
+The post must be public. Commit the updated `data/news.json` and the new
+image. Posts without a photo show the OptiML logo instead. You can also edit
+`data/news.json` by hand: each item needs `id`, `date` (YYYY-MM-DD) and
+`text`, and can have `image` (a path under `static/`), `link` and `title`.
